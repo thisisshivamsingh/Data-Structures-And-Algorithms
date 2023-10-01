@@ -88,17 +88,17 @@ int main() {
 // }
 // cout << a;
 
-char ch;
+// char ch;
 
-cin >> ch;
+// cin >> ch;
 
-if(97<=ch&&ch<=122){
-    cout << "This is Lowercase small case" << endl;
-}else if(65<=ch&&ch<=90){
- cout << "This is Upper Case" << endl;
-}else if(48<=ch&&ch<=57){
-cout << "This is numeric" << endl;
-}
+// if(97<=ch&&ch<=122){
+//     cout << "This is Lowercase small case" << endl;
+// }else if(65<=ch&&ch<=90){
+//  cout << "This is Upper Case" << endl;
+// }else if(48<=ch&&ch<=57){
+// cout << "This is numeric" << endl;
+// }
 }
 
 
