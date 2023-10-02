@@ -28,17 +28,34 @@ int main() {
 
     // cout<< "Value of sum is "<<sum<<endl;
 
-    int n;
-    cin >> n;
+//     int n;
+//     cin >> n;
 
-    int i = 2;
-    int sum = 0;
-    while(i<=n){
+//     int i = 2;
+//     int sum = 0;
+//     while(i<=n){
 
-    sum=sum+i;
+//     sum=sum+i;
 
-i=i+2;
-    }
+// i=i+2;
+//     }
 
-    cout<< "Value of sum of all even number" << sum << endl;
+//     cout<< "Value of sum of all even number" << sum << endl;
+
+// int n;
+// cin >> n;
+
+// int i = 2;
+
+// while(i<n){
+
+//     //divide hogya, not prime
+//     if(n%i==0){
+//         cout<< " Not prime for " << i << endl;
+//     }
+//     else{
+//         cout<<" Prime for "<< i << endl;
+//     }
+//     i = i + 1;
+// }
 }
