@@ -208,21 +208,128 @@ int main() {
 //     row = row + 1;
 // }
 
+// int n;
+// cin>>n;
+
+// int row = 1;
+// while(row<=n){
+//     int col = 1;
+//     char ch = 'A'+row-1;
+//     while(col<=row){
+// cout << ch;
+// col = col + 1;
+//     }
+//     cout<< endl;  
+//     row = row+1;
+// }
+
+// int n;
+// cin>>n;
+
+// int row = 1;
+
+// while(row <= n){
+//     int col = 1;
+
+//     while(col <= row){
+//         char ch = ('A' + row + col - 2);
+//         cout<<ch;
+//         col = col + 1;
+//     }
+//     cout<<endl;
+//     row = row + 1;
+// }
+
+// int n;
+// cin>>n;
+
+// int row = 1;
+
+// while(row <= n){
+
+//     int col = 1;
+//     char start = 'A' + n - row;
+//     while(col <= row){
+//         cout<<start;
+//         start = start + 1;
+//         col = col + 1;
+//     }
+//     cout<< endl;
+//     row = row + 1;
+// }
+
+// int n;
+// cin>>n;
+
+// int row = 1;
+
+// while(row <= n){
+//     int col = 1;
+//     char ch = 'A' + row - 1;
+//     while(col <= n){
+//      cout << ch;
+//      ch = ch + 1;
+//      col = col + 1;
+//     }
+//     cout << endl;
+//     row = row + 1;
+// }
+
+// int n;
+// cin>>n;
+
+// int row = 1;
+
+// while(row <= n){
+
+//     //space print karlo
+//     int space = n - row;
+//     while(space){
+//         cout<<" ";
+//         space = space - 1;
+//     }
+
+//     //stars print karlo
+//     int col = 1;
+//     while(col <= row){
+//         cout<<"*";
+//         col = col + 1;
+//     }
+// cout<<endl;
+// row = row + 1;
+// }
+
+// int n;
+// cin>>n;
+
+// int row = 1;
+
+// while(row <= n){
+//     int col = 1;
+//     while(col<=n-row+1){
+// cout<<"*";
+// col = col + 1;
+//     }
+//     cout<<endl;
+//     row=row+1;
+// }
+
 int n;
 cin>>n;
-
 int row = 1;
 while(row<=n){
-    int col = 1;
-    char ch = 'A'+row-1;
-    while(col<=row){
-cout << ch;
-col = col + 1;
+    int space = row - 1;
+    while(space){
+        cout<<" ";
+        space = space - 1;
     }
-    cout<< endl;
-   
-    row = row+1;
+    int col = 1;
+    while(col<=n-row+1){
+        cout<<"*";
+        col = col + 1;
+    }
+    cout<<endl;
+    row = row + 1;
 }
-
 }
 
