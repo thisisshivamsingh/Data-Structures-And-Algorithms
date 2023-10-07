@@ -314,21 +314,59 @@ int main() {
 //     row=row+1;
 // }
 
+// int n;
+// cin>>n;
+// int row = 1;
+// while(row<=n){
+//     int space = row - 1;
+//     while(space){
+//         cout<<" ";
+//         space = space - 1;
+//     }
+//     int col = 1;
+//     while(col<=n-row+1){
+//         cout<<"*";
+//         col = col + 1;
+//     }
+//     cout<<endl;
+//     row = row + 1;
+// }
+
+// int n;
+// cin>>n;
+// int row = 1;
+// while(row<=n){
+//     int space = row - 1;
+//     while(space){
+//         cout << " ";
+//         space = space - 1;
+//     }
+//     int star = n - row + 1;
+//     int col = 1;
+//     while(col<=star){
+//         cout << row;
+//         col = col + 1;
+//     }
+//     cout << endl;
+//     row = row + 1;
+// }
+
 int n;
 cin>>n;
 int row = 1;
 while(row<=n){
-    int space = row - 1;
+    int space = n - row;
+ 
     while(space){
-        cout<<" ";
+        cout << " ";
         space = space - 1;
     }
     int col = 1;
-    while(col<=n-row+1){
-        cout<<"*";
+    while(col <= row){
+        cout << row;
         col = col + 1;
     }
-    cout<<endl;
+    cout << endl;
     row = row + 1;
 }
 }
