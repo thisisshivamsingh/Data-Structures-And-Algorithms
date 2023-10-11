@@ -351,23 +351,107 @@ int main() {
 //     row = row + 1;
 // }
 
-int n;
-cin>>n;
-int row = 1;
-while(row<=n){
-    int space = n - row;
+// int n;
+// cin>>n;
+// int row = 1;
+// while(row<=n){
+//     int space = n - row;
  
-    while(space){
-        cout << " ";
-        space = space - 1;
-    }
-    int col = 1;
-    while(col <= row){
-        cout << row;
-        col = col + 1;
-    }
-    cout << endl;
-    row = row + 1;
-}
+//     while(space){
+//         cout << " ";
+//         space = space - 1;
+//     }
+//     int col = 1;
+//     while(col <= row){
+//         cout << row;
+//         col = col + 1;
+//     }
+//     cout << endl;
+//     row = row + 1;
+// }
+
+// int n;
+
+// cin >> n;
+
+// int i = 1;
+// while (i<=n){
+//     int space = i - 1;
+//     while(space){
+//         cout << " ";
+//         space = space - 1;
+//     }
+
+//     int j = i;
+
+//     while(j <= n){
+//         cout << j;   
+//         j = j + 1;
+//     }
+//     cout<<endl;
+//     i = i + 1;
+// }
+
+// int n;
+
+// cin >> n;
+// int i = 1;
+// int counter = 1;
+// while(i<=n){
+//     int space = n - i;
+//     while(space){
+//         cout << " ";
+//         space = space - 1;
+//     }
+//     int j = 1;
+//     while(j<=i){
+//         cout << counter;
+//         counter = counter + 1;
+// j = j + 1;
+//     }
+//     cout << endl;
+//     i = i + 1;
+// }
+
+// int n;
+// cin>>n;
+
+// int row = 1;
+
+// while(row <= n) {
+// //Print karo space (1st triangle)
+// int space = n - row;
+// while(space) {
+//     cout<<" ";
+//     space = space - 1;
+// }
+
+// //print 2nd triangle
+// int j = 1;
+// while(j <= row){
+//     cout<<j;
+//     j = j + 1; 
+// }
+
+// //print 3rd triangle
+
+// int start = row - 1;
+// while(start){
+//     cout<<start;
+//     start = start - 1;
+// }
+
+// cout<<endl;
+// row = row + 1;
+// }
+
+///// Dabangg /////
+
+// 1234554321
+// 1234**4321
+// 123****321
+// 12******21
+// 1********1
+
 }
 
