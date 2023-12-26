@@ -83,7 +83,7 @@ int main() {
 // }
 // cout << a;
 
-//// FIND UPPERCASE, LOWERCASE, NUMERIC ////
+///// FIND UPPERCASE, LOWERCASE, NUMERIC /////
 // char ch;
 // cin >> ch;
 // if(97<=ch&&ch<=122){
